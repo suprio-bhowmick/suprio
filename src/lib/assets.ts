@@ -1,45 +1,25 @@
-import navbarBg from "../assets/image/bg-nav.png";
-import heroBg from "../assets/image/hero-bg.jpg";
-import bootstrap from "../assets/SkillIcon/bootstrap.png";
-import css from "../assets/SkillIcon/css.png";
-import git from "../assets/SkillIcon/git.png";
-import github from "../assets/SkillIcon/github.png";
-import html from "../assets/SkillIcon/html.png";
-import js from "../assets/SkillIcon/js.png";
-import next from "../assets/SkillIcon/next.png";
-import reactRouter from "../assets/SkillIcon/react-router.png";
-import react from "../assets/SkillIcon/react.png";
-import redux from "../assets/SkillIcon/redux.png";
-import tailwind from "../assets/SkillIcon/tailwind.png";
-import mui from "../assets/SkillIcon/mui.png";
-import typescript from "../assets/SkillIcon/typescript.png";
-import aboutMe from "../assets/image/about-me.jpg";
-import project1 from "../assets/image/project1.png";
-import project2 from "../assets/image/project2.png";
-import project3 from "../assets/image/project3.png";
-import project4 from "../assets/image/project4.png";
-
 export const images = {
-  navbarBg,
-  heroBg,
-  aboutMe,
-  project1,
-  project3,
-  project2,
-  project4,
+  navbarBg: { src: "../assets/image/bg-nav.png" },
+  heroBg: { src: "../assets/image/hero-bg.jpg" },
+  aboutMe: { src: "../assets/image/about-me.jpg" },
+  project1: { src: "../assets/image/project1.png" },
+  project2: { src: "../assets/image/project2.png" },
+  project3: { src: "../assets/image/project3.png" },
+  project4: { src: "../assets/image/project4.png" },
 };
+
 export const SkillIcon = {
-  bootstrap,
-  css,
-  git,
-  github,
-  html,
-  js,
-  next,
-  reactRouter,
-  react,
-  redux,
-  tailwind,
-  typescript,
-  mui
+  bootstrap: { src: "../assets/SkillIcon/bootstrap.png" },
+  css: { src: "../assets/SkillIcon/css.png" },
+  git: { src: "../assets/SkillIcon/git.png" },
+  github: { src: "../assets/SkillIcon/github.png" },
+  html: { src: "../assets/SkillIcon/html.png" },
+  js: { src: "../assets/SkillIcon/js.png" },
+  next: { src: "../assets/SkillIcon/next.png" },
+  reactRouter: { src: "../assets/SkillIcon/react-router.png" },
+  react: { src: "../assets/SkillIcon/react.png" },
+  redux: { src: "../assets/SkillIcon/redux.png" },
+  tailwind: { src: "../assets/SkillIcon/tailwind.png" },
+  typescript: { src: "../assets/SkillIcon/typescript.png" },
+  mui: { src: "../assets/SkillIcon/mui.png" },
 };
