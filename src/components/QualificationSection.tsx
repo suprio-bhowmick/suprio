@@ -1,6 +1,5 @@
 import {
   faBriefcase,
-  faCheck,
   faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

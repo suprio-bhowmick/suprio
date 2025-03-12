@@ -2,7 +2,6 @@
 import { images } from "@/lib/assets";
 import {
   faBars,
-  faDownload,
   faMoon,
   faSun,
   faTimes,
