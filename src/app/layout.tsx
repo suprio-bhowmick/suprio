@@ -21,7 +21,7 @@ export default function RootLayout({
       <body
         className={` antialiased pt-10`}
       >
-        <Providers  attribute="class">{children}</Providers>
+        <Providers >{children}</Providers>
       </body>
     </html>
   );
