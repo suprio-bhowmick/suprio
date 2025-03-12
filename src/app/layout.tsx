@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Outfit } from "next/font/google";
+// import {  Outfit } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
-// Load Outfit font
-const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "600", "700"] });
+// const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "600", "700"] });
 
 
 export const metadata: Metadata = {
